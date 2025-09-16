@@ -99,7 +99,7 @@ p {
 }
 
 .image-box {
-  border: 1px dotted #4CAF50
+  border: 1px dotted #4CAF50;
   width: 100%;
   display: flex;
   overflow: hidden;   
