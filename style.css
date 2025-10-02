@@ -81,6 +81,14 @@ p {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+a.card {
+  text-decoration: none; 
+  color: inherit;  
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .text-box {
   border: 1px dotted #4CAF50;
   background-color: white;
