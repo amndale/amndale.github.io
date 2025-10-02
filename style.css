@@ -191,6 +191,32 @@ p {
   z-index: 2;
 }
 
+.plant-image-box img.hover {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* so only label click works */
+}
+
+.plant-image-box img.default {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* Toggle the hero persona when checkbox is checked */
+.plant-toggle:checked + .plant-label img.hover {
+  opacity: 1;
+}
+
+.plant-toggle:checked + .plant-label img.default {
+  opacity: 0;
+}
+
+/* Optional: remove highlight when tapping outside */
+body {
+  -webkit-tap-highlight-color: transparent; /* prevents highlight on mobile */
+}
+
+
 .plant-image-box:hover img.hover {
   opacity: 1;
 }
@@ -270,7 +296,7 @@ font-family: "comicstrip-mn", sans-serif;
 
 .endtext {
   max-width: 700px;
-  margin: 20px auto 10px;
+
   padding: 15px 15px;
   background-color: #f0fff0;
   border: 1px dotted #4CAF50;
