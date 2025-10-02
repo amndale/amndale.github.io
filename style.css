@@ -32,6 +32,7 @@ p {
   font-style: italic;
   max-width: 700px;
   margin: 0 auto 40px;
+  font-size: 16px;
 }
 
 .backstory {
@@ -42,7 +43,7 @@ p {
   text-align: center;
   box-sizing: border-box;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "captain-comic", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -95,7 +96,7 @@ p {
   font-family: "captain-comic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .image-box {
@@ -191,32 +192,6 @@ p {
   z-index: 2;
 }
 
-.plant-image-box img.hover {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none; /* so only label click works */
-}
-
-.plant-image-box img.default {
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
-
-/* Toggle the hero persona when checkbox is checked */
-.plant-toggle:checked + .plant-label img.hover {
-  opacity: 1;
-}
-
-.plant-toggle:checked + .plant-label img.default {
-  opacity: 0;
-}
-
-/* Optional: remove highlight when tapping outside */
-body {
-  -webkit-tap-highlight-color: transparent; /* prevents highlight on mobile */
-}
-
-
 .plant-image-box:hover img.hover {
   opacity: 1;
 }
@@ -283,7 +258,7 @@ font-family: "comicstrip-mn", sans-serif;
   font-family: "captain-comic", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  padding: 14px 28px;
+  padding: 16px 28px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -296,7 +271,7 @@ font-family: "comicstrip-mn", sans-serif;
 
 .endtext {
   max-width: 700px;
-
+  margin: 20px auto 10px;
   padding: 15px 15px;
   background-color: #f0fff0;
   border: 1px dotted #4CAF50;
@@ -304,7 +279,7 @@ font-family: "comicstrip-mn", sans-serif;
   text-align: center;
   font-family: "captain-comic", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
@@ -393,7 +368,7 @@ font-family: "comicstrip-mn", sans-serif;
   font-family: "captain-comic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.6;
   box-sizing: border-box;
 }
@@ -403,7 +378,7 @@ font-family: "comicstrip-mn", sans-serif;
   font-family: "captain-comic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.6;
   text-align: center;
 }
