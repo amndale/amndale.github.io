@@ -244,6 +244,77 @@ font-family: "comicstrip-mn", sans-serif;
   border-color: crimson;
 }
 
+.mission-complete {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.mission-button {
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 14px 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.mission-button:hover {
+  background-color: #388E3C;
+  transform: scale(1.05);
+}
+
+.endtext {
+  max-width: 700px;
+  margin: 20px auto 30px;
+  padding: 15px 15px;
+  background-color: #f0fff0;
+  border: 1px dotted #4CAF50;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.card,
+.plant-card {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover,
+.plant-card:hover {
+  box-shadow: 0 0 20px 5px #4CAF50, 0 4px 15px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+
+.card:active,
+.plant-card:active {
+  box-shadow: 0 0 20px 5px #4CAF50, 0 4px 15px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+
+.missionstatement {
+  margin: 20px auto 40px;
+  padding: 20px 10px;
+  border: 2px solid #4CAF50;
+  background-color: #e0f7fa;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 
 
 
